@@ -7,6 +7,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.allwin.currencycoversion.data.network.NetworkResult
 import com.allwin.currencycoversion.data.repository.CurrencyRepository
+import com.allwin.currencycoversion.data.repository.CurrencyRepositoryImpl
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

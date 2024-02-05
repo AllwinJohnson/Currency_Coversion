@@ -21,7 +21,7 @@ import kotlinx.coroutines.launch
 class HomeActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
     private lateinit var _binding: ActivityHomeBinding
-    private val viewModel: HomeViewModel by viewModels()
+    val viewModel: HomeViewModel by viewModels()
     private lateinit var adapter: CurrencyAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {

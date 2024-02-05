@@ -81,8 +81,6 @@ data class Rates(
     @field:SerializedName("SLL")
     val SLL: Double? = null,
 
-    // ... continue for other properties
-
     @field:SerializedName("SDG")
     val SDG: Double? = null,
 

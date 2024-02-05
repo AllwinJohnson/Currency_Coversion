@@ -74,6 +74,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="end"
                 android:maxLines="2"
+                android:maxLength="14"
                 android:textColor="@color/material_dynamic_primary30"
                 android:textSize="60sp"
                 app:layout_constraintBottom_toTopOf="@+id/guideline"
